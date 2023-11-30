@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 221, 221);
+  }
+  
+  header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input, button {
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .menuItem {
+    margin-bottom: 20px;
+  }
+  
+  .menuItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* Add responsive styles here */
+    form, .menuItem {
+      max-width: 100%;
+    }
+  }
+  
